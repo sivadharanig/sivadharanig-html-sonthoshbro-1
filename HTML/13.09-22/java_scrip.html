@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        
+        <!-- <script>
+            document.getElementById("siva").innerText="welcome"
+            <p id="siva">1</p>
+        </script> -->
+       
+        <!-- <button type="button" onclick="document.getElementById('siva').innerHTML=Date()">siav</button>
+        <p id="siva">1</p> -->
+       <script>
+        function siva(sw){
+            var pic;
+            if (sw==1){
+              pic="download.jpg"
+            } else{
+                pic="download.png"
+            }
+            document.getElementById("myi").src=pic    
+        }
+       </script>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <button  type="button" onclick="siva(1)">youtube</button>
+       <button  type="button" onclick="siva(2)">bits</button><br>
+       <img id="myi" src="download.png" >
+    </body>
+</html>
